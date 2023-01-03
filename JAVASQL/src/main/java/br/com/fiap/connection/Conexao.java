@@ -8,7 +8,7 @@ public class Conexao {
 	
 	public Connection getConexao() {
 		
-		String jdbc = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl";
+		String jdbc = "jdbc:oracle:thin:@oracle.com.br:1500:orcl";//colocar a URL onde o Banco de dados esta localizado
 		
 		try {
 			return DriverManager.getConnection(jdbc, "XXXXXX","XXXXX");// usuario , senha;
